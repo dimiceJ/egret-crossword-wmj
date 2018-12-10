@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="SceneGameSkin" width="720" height="1136" xmlns:e="http://ns.egret.com/eui" xmlns:ns1="*" xmlns:w="http://ns.egret.com/wing">
+	<e:Image source="GameBG3_jpg" x="0" y="0" width="720" height="1136"/>
+	<e:Image source="WordFrame_png" width="580" anchorOffsetY="0" height="726" horizontalCenter="1" verticalCenter="-63"/>
+	<e:Group id="group_answer" anchorOffsetY="0" anchorOffsetX="0" verticalCenter="-77.5" height="69.33" x="196" width="329.34">
+		<ns1:AnswerWord width="70" height="70" skinName="WordSkin" x="0" y="0"/>
+		<ns1:AnswerWord width="70" height="70" x="86" y="0" skinName="WordSkin"/>
+		<ns1:AnswerWord width="70" height="70" x="172.32" y="0" skinName="WordSkin"/>
+		<ns1:AnswerWord width="70" height="70" x="258.51" y="0" skinName="WordSkin"/>
+		<e:layout>
+			<e:TileLayout orientation="rows" horizontalGap="16"/>
+		</e:layout>
+	</e:Group>
+	<e:Group id="group_words" width="515" height="379" horizontalCenter="1.5" verticalCenter="243.5" anchorOffsetX="0" anchorOffsetY="0">
+		<ns1:Word width="70" height="70" skinName="WordSkin" x="-101" y="-598" scaleX="1" scaleY="1"/>
+		<ns1:Word width="70" height="70" skinName="WordSkin" x="-91" y="-588" scaleX="1" scaleY="1"/>
+		<ns1:Word width="70" height="70" skinName="WordSkin" x="-81" y="-578" scaleX="1" scaleY="1"/>
+		<ns1:Word width="70" height="70" skinName="WordSkin" x="-71" y="-568" scaleX="1" scaleY="1"/>
+		<ns1:Word width="70" height="70" skinName="WordSkin" x="-61" y="-558" scaleX="1" scaleY="1"/>
+		<ns1:Word width="70" height="70" skinName="WordSkin" x="-51" y="-548" scaleX="1" scaleY="1"/>
+		<ns1:Word width="70" height="70" skinName="WordSkin" x="-41" y="-538" scaleX="1" scaleY="1"/>
+		<ns1:Word width="70" height="70" skinName="WordSkin" x="-31" y="-528" scaleX="1" scaleY="1"/>
+		<ns1:Word width="70" height="70" skinName="WordSkin" x="-21" y="-518" scaleX="1" scaleY="1"/>
+		<ns1:Word width="70" height="70" skinName="WordSkin" x="-11" y="-508" scaleX="1" scaleY="1"/>
+		<ns1:Word width="70" height="70" skinName="WordSkin" x="-1" y="-498" scaleX="1" scaleY="1"/>
+		<ns1:Word width="70" height="70" skinName="WordSkin" x="9" y="-488" scaleX="1" scaleY="1"/>
+		<ns1:Word width="70" height="70" skinName="WordSkin" x="19" y="-478" scaleX="1" scaleY="1"/>
+		<ns1:Word width="70" height="70" skinName="WordSkin" x="29" y="-468" scaleX="1" scaleY="1"/>
+		<ns1:Word width="70" height="70" skinName="WordSkin" x="39" y="-458" scaleX="1" scaleY="1"/>
+		<ns1:Word width="70" height="70" skinName="WordSkin" x="49" y="-448" scaleX="1" scaleY="1"/>
+		<ns1:Word width="70" height="70" skinName="WordSkin" x="59" y="-438" scaleX="1" scaleY="1"/>
+		<ns1:Word width="70" height="70" skinName="WordSkin" x="69" y="-428" scaleX="1" scaleY="1"/>
+		<ns1:Word width="70" height="70" skinName="WordSkin" x="79" y="-418" scaleX="1" scaleY="1"/>
+		<ns1:Word width="70" height="70" skinName="WordSkin" x="89" y="-408" scaleX="1" scaleY="1"/>
+		<e:layout>
+			<e:TileLayout horizontalGap="41" verticalGap="32" orientation="rows"/>
+		</e:layout>
+	</e:Group>
+	<e:Image id="img_question" width="390" height="260" horizontalCenter="1" y="176"/>
+	<e:Button id="btn_back" label="" x="40" y="12.33" width="96" height="73">
+		<e:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="BackBtn_png" source.down="BackBtn1_png"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+		</e:skinName>
+	</e:Button>
+	<e:Group id="group_win" width="720" height="1136" anchorOffsetX="0" anchorOffsetY="0" y="0" x="0" visible="false">
+		<e:Image width="632" height="474" horizontalCenter="-4" verticalCenter="258" source="Result_png"/>
+		<e:Button id="btn_next" label="" x="465" y="916" width="166" height="82">
+			<e:skinName>
+				<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="ResultBtn_png" source.down="ResultBtn1_png"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+			</e:skinName>
+		</e:Button>
+		<e:Label text="" x="157" y="709" anchorOffsetX="0" width="471" anchorOffsetY="0" height="47"/>
+		<e:Label id="lb_explain" text="标签" x="135" y="709" anchorOffsetX="0" width="464" anchorOffsetY="0" height="52" textColor="0x000000"/>
+		<e:Label id="lb_from" text="标签" x="135" y="802" anchorOffsetX="0" width="483" anchorOffsetY="0" height="118" textColor="0x000000"/>
+	</e:Group>
+</e:Skin>
